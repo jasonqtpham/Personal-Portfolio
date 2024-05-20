@@ -7,7 +7,7 @@ export const Navbar = () => {
     <AppBar position="static" sx={{ width: '100%' }}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-          My App
+          Jason's Portfolio
         </Typography>
         <Box>
           <Button color="inherit" component={RouterLink} to="/">Home</Button>
