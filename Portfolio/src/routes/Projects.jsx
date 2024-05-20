@@ -9,7 +9,11 @@ export const Projects = () => {
       Description: "Basic Tic-Tac-Tac webapp",
       Link: "https://jasonqtpham.github.io/Tic-Tac-Toe/",
     },
-    { Title: "Trivia", Description: "Trivia quiz webapp", Link: "https://github.com/jasonqtpham/Countdown2" },
+    {
+      Title: "Trivia",
+      Description: "Trivia quiz webapp",
+      Link: "https://github.com/jasonqtpham/Countdown2",
+    },
     {
       Title: "Weather/News",
       Description:
@@ -19,7 +23,7 @@ export const Projects = () => {
   ];
   return (
     <Box sx={{ my: "30px" }}>
-      <Typography variant="h3" component="h1">
+      <Typography variant="h4" component="h1">
         Projects Page
       </Typography>
       <Box>
@@ -31,16 +35,14 @@ export const Projects = () => {
             <Typography variant="h6" component="p">
               {item.Description}
             </Typography>
-              <Typography
-                component="a"
-                href={item.Link}
-                target="_blank"
-                rel="noopener noreferrer"
-                color="primary"
-              >
-                {item.Link}
-              </Typography>
-           
+            <Typography
+              component="a"
+              href={item.Link}
+              target="_blank"
+              color="primary"
+            >
+              {item.Link}
+            </Typography>
           </Box>
         ))}
       </Box>

@@ -9,7 +9,7 @@ export const Contact = () => {
 
   return (
     <Box sx={{ my: "30px" }}>
-      <Typography variant="h3" component="h1" gutterBottom>
+      <Typography variant="h4" component="h1" gutterBottom>
         Contact Page
       </Typography>
       <form onSubmit={handleSubmit}>
