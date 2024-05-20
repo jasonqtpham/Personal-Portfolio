@@ -1,11 +1,13 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 export const About = () => {
   return (
-    <Typography variant="h4" component="h1">
-      About Page
-    </Typography>
+    <Box sx={{ my: "30px" }}>
+        <Typography variant="h3" component="h1">
+          About Page
+        </Typography>
+    </Box>
   );
 };
 
